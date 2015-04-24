@@ -17,4 +17,5 @@ auto-save-list
 tramp
 .\#*
 *.swp
+.idea/
 
