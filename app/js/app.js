@@ -9,8 +9,8 @@
   app.config(function ($routeProvider, $locationProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
+        templateUrl: 'app/views/main.html',
+        controller: 'TodoCtrl'
       })
       .otherwise({
         redirectTo: '/'

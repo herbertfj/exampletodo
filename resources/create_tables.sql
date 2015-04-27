@@ -1,0 +1,23 @@
+USE exampletodos;
+
+CREATE TABLE IF NOT EXISTS todos (
+  nid INT(11) AUTO_INCREMENT,
+  message VARCHAR(140) NOT NULL,
+  PRIMARY KEY (nid)
+) AUTO_INCREMENT = 187;
+
+/*
+CREATE TABLE IF NOT EXISTS users (
+  uid INT(11) AUTO_INCREMENT,
+  email VARCHAR(50) NOT NULL,
+  password VARCHAR(200) NOT NULL,
+  PRIMARY KEY (uid)
+) AUTO_INCREMENT = 187;
+
+CREATE TABLE IF NOT EXISTS user_todos (
+  nid INT(11) NOT NULL,
+  uid INT(11) NOT NULL,
+  FOREIGN KEY (nid) REFERENCES todos(nid),
+  FOREIGN KEY (uid) REFERENCES users(uid)
+);
+*/

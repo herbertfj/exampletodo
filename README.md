@@ -1,7 +1,7 @@
 # Example To-Do Application
 
-Supports users and authentication.
-Build with AngularJS, Bootstrap, PHP, and MySQL.
+Simple AngularJS and PHP api example.
+Built with AngularJS, Bootstrap, PHP, and MySQL.
 
 ## License
 

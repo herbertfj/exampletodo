@@ -1,8 +1,8 @@
 <div class="container">
-  <form role="form" ng-submit="addItem()">
-    <div class="row">
+  <form role="form" ng-submit="addTodo()" class="todoForm">
+    <div class="row -elements">
       <div class="input-group">
-        <input type="text" ng-model="todo" placeholder="Add a new item here." class="form-control">
+        <input type="text" ng-model="newTodo" placeholder="Add a new item here." class="form-control">
         <span class="input-group-btn">
           <input type="submit" class="btn btn-primary" value="Add">
         </span>
@@ -12,9 +12,10 @@
 
   <div ng-model="todos">
     <p class="input-group" ng-repeat="todo in todos">
-      <input type="text" ng-model="todo" class="form-control">
+      <input type="text" ng-model="todo.message" ng-model-options="{updateOn:'blur'}" ng-focus="beginEdit(todo)"
+             ng-keyup="cancel($event, $index)" ng-change="updateTodo(todo)" class="form-control">
       <span class="input-group-btn">
-        <button class="btn btn-danger" ng-click="removeItem($index)" aria-label="Remove">X</button>
+        <button class="btn btn-danger" ng-click="deleteTodo(todo, $index)" aria-label="Remove">X</button>
       </span>
     </p>
   </div>
