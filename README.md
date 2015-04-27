@@ -10,6 +10,7 @@ Back-end: Apache/PHP & MySQL
 1. Create database 'exampletodo'
 2. Run resources/create_tables.sql in MySQL
 3. Ensure correct settings in api/lib/MySQLConn.class.php
+4. Place repo contents at the root of webserver
 
 ## License
 
