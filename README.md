@@ -2,7 +2,7 @@
 
 Simple AngularJS and PHP api example.
 
-Front-end: AngularJS & Bootstrap\s\s
+Front-end: AngularJS & Bootstrap<br>
 Back-end: Apache/PHP & MySQL
 
 ## How to Use
