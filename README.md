@@ -7,7 +7,9 @@ Back-end: Apache/PHP & MySQL
 
 ## How to Use
 
-Create database 'exampletodo' & run create_tables.sql in MySQL as root user or edit api/lib/MySQLConn.class.php
+1. Create database 'exampletodo'
+2. Run resources/create_tables.sql in MySQL
+3. Ensure correct settings in api/lib/MySQLConn.class.php
 
 ## License
 
