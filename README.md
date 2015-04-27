@@ -5,6 +5,8 @@ Simple AngularJS and PHP api example.
 Front-end: AngularJS & Bootstrap<br>
 Back-end: Apache/PHP & MySQL
 
+Single-page application that connects to MySQL database through a PHP API to retrieve, store, and update to-do list items.
+
 ## How to Use
 
 1. Create database 'exampletodo'
