@@ -1,7 +1,8 @@
 # Example To-Do Application
 
 Simple AngularJS and PHP api example.
-Front-end: AngularJS & Bootstrap
+
+Front-end: AngularJS & Bootstrap\s\s
 Back-end: Apache/PHP & MySQL
 
 ## How to Use
